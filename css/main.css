@@ -70,10 +70,13 @@ body {
 }
 
 .header .bx-wrapper {
-     margin-right: 0 !important
+    margin-right: 0 !important
 }
 
-img{object-fit: cover}
+img {
+    object-fit: cover
+}
+
 /* end global rules here */
 
 
@@ -224,7 +227,6 @@ img{object-fit: cover}
     font-weight: bold;
     margin: auto;
     width: fit-content
-   
 }
 
 /* end header */
@@ -413,7 +415,8 @@ img{object-fit: cover}
     transition: var(--trans)
 }
 
-.our_projects ul li:hover, .our_projects ul .selected {
+.our_projects ul li:hover,
+.our_projects ul .selected {
     background-color: red;
     color: #fff;
     border: 2px solid red;
@@ -497,7 +500,9 @@ img{object-fit: cover}
     margin-bottom: 10px
 }
 
-.footer .colom:first-of-type{margin-left: 10px}
+.footer .colom:first-of-type {
+    margin-left: 10px
+}
 
 .footer .colom p {
 
@@ -665,9 +670,11 @@ img{object-fit: cover}
         text-align: center
     }
 
-    
-    .header .slider li h2{font-size: 20px}
-    
+
+    .header .slider li h2 {
+        font-size: 20px
+    }
+
 
 }
 
