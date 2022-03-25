@@ -1,4 +1,4 @@
-/* global $, alert, conso */
+/* global $ document window */
 
 $(function () {
 

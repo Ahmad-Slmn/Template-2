@@ -292,8 +292,7 @@ img {
 .our_team .box {
 
     position: relative;
-
-
+    cursor: pointer
 }
 
 .our_team .box:not(:first-child):hover .overlay {
@@ -313,13 +312,14 @@ img {
     font-weight: bold;
     font-size: 20px;
     display: none;
-    border-radius: 2%;
+    border-radius: 4%;
     text-transform: uppercase;
 
 }
 
 .our_team .box img {
-    width: 100%
+    width: 100%;
+    border-radius: 10px
 }
 
 .our_team .box p {
@@ -431,13 +431,15 @@ img {
 
 .our_projects .gallery .row > div {
     position: relative;
-    margin-bottom: 10px
+    margin-bottom: 10px;
+    cursor: pointer
 }
 
 
 
 .our_projects .gallery .row > div img {
-    width: 100%
+    width: 100%;
+     border-radius: 10px
 }
 
 .our_projects .gallery .row > div .over {
@@ -456,7 +458,8 @@ img {
     font-size: 20px;
     transition: all var(--trans);
     text-transform: uppercase;
-    display: none
+    display: none;
+    border-radius: 10px
 }
 
 
@@ -502,6 +505,12 @@ img {
 
 .footer .colom:first-of-type {
     margin-left: 10px
+}
+
+.footer .colom img{
+    border-radius: 6px;
+    padding: 1px;
+    border: 1px solid #fff
 }
 
 .footer .colom p {
